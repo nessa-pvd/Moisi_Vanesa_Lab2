@@ -8,7 +8,7 @@
 
         public ICollection<Book>? Books { get; set; }
 
-        public string FullName => FirstName + " " + LastName;
+        // public string FullName => FirstName + " " + LastName;
 
 
     }

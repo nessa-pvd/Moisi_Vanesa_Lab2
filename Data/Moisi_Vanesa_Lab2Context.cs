@@ -19,5 +19,6 @@ namespace Moisi_Vanesa_Lab2.Data
         public DbSet<Moisi_Vanesa_Lab2.Models.Publisher> Publisher { get; set; } = default!;
         public DbSet<Moisi_Vanesa_Lab2.Models.Publisher> Publishers { get; set; } = default!;
         public DbSet<Moisi_Vanesa_Lab2.Models.Author> Author { get; set; } = default!;
+        public DbSet<Moisi_Vanesa_Lab2.Models.Category> Category { get; set; } = default!;
     }
 }
