@@ -55,18 +55,20 @@
                 selectedRow = "table-success";
             }
             <tr class="@selectedRow">
-                    <td>
-                       
-                        @if( item.ID == Model.CategoryID)
-                        {
-                       @foreach (var b in Model.CategoryData.Books) 
-                        {
-                            @b.Title @: @b.Author.FullName
+
+                <td>
+                    
+                        
+                       @foreach (var b in item.BookCategories) 
+                        {  
+                            @b.Book.Title 
+                            @: @b.Book.Author.FullName
                             <br />
-                        } 
+                    
                         }
-                        </td>
-                </tr>
+                </td>
+
+            </tr>
             }
        
     </table>
