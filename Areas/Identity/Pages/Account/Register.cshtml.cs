@@ -109,6 +109,7 @@ namespace Moisi_Vanesa_Lab2.Areas.Identity.Pages.Account
                 await _context.SaveChangesAsync();
 
                 _logger.LogInformation("User created a new account with password.");
+                var role = await _userManager.AddToRoleAsync(user, "User");
                 var userId = await _userManager.GetUserIdAsync(user);
                 var code = await
                 _userManager.GenerateEmailConfirmationTokenAsync(user);
