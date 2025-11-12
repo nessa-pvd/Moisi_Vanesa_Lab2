@@ -12,8 +12,8 @@ using Moisi_Vanesa_Lab2.Data;
 namespace Moisi_Vanesa_Lab2.Migrations
 {
     [DbContext(typeof(Moisi_Vanesa_Lab2Context))]
-    [Migration("20251109190029_FinalAddressFix")]
-    partial class FinalAddressFix
+    [Migration("20251112155848_MigrareTotala")]
+    partial class MigrareTotala
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

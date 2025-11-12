@@ -40,7 +40,7 @@ namespace Moisi_Vanesa_Lab2.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Author", (string)null);
+                    b.ToTable("Author");
                 });
 
             modelBuilder.Entity("Moisi_Vanesa_Lab2.Models.Book", b =>
@@ -73,7 +73,7 @@ namespace Moisi_Vanesa_Lab2.Migrations
 
                     b.HasIndex("PublisherID");
 
-                    b.ToTable("Book", (string)null);
+                    b.ToTable("Book");
                 });
 
             modelBuilder.Entity("Moisi_Vanesa_Lab2.Models.BookCategory", b =>
@@ -96,7 +96,7 @@ namespace Moisi_Vanesa_Lab2.Migrations
 
                     b.HasIndex("CategoryID");
 
-                    b.ToTable("BookCategory", (string)null);
+                    b.ToTable("BookCategory");
                 });
 
             modelBuilder.Entity("Moisi_Vanesa_Lab2.Models.Borrowing", b =>
@@ -122,7 +122,7 @@ namespace Moisi_Vanesa_Lab2.Migrations
 
                     b.HasIndex("MemberID");
 
-                    b.ToTable("Borrowing", (string)null);
+                    b.ToTable("Borrowing");
                 });
 
             modelBuilder.Entity("Moisi_Vanesa_Lab2.Models.Category", b =>
@@ -139,7 +139,7 @@ namespace Moisi_Vanesa_Lab2.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Category", (string)null);
+                    b.ToTable("Category");
                 });
 
             modelBuilder.Entity("Moisi_Vanesa_Lab2.Models.Member", b =>
@@ -168,7 +168,7 @@ namespace Moisi_Vanesa_Lab2.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Member", (string)null);
+                    b.ToTable("Member");
                 });
 
             modelBuilder.Entity("Moisi_Vanesa_Lab2.Models.Publisher", b =>
@@ -185,7 +185,7 @@ namespace Moisi_Vanesa_Lab2.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Publisher", (string)null);
+                    b.ToTable("Publisher");
                 });
 
             modelBuilder.Entity("Moisi_Vanesa_Lab2.Models.Book", b =>

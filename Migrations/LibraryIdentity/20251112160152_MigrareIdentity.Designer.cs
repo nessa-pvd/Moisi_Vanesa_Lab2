@@ -12,8 +12,8 @@ using Moisi_Vanesa_Lab2.Data;
 namespace Moisi_Vanesa_Lab2.Migrations.LibraryIdentity
 {
     [DbContext(typeof(LibraryIdentityContext))]
-    [Migration("20251109191059_FinalSyncIdentity")]
-    partial class FinalSyncIdentity
+    [Migration("20251112160152_MigrareIdentity")]
+    partial class MigrareIdentity
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
